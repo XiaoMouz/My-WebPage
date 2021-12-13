@@ -1,0 +1,31 @@
+.main {
+  position: absolute;
+  border-radius: 25px;
+  width: 771px;
+  height: 667px;
+  background: rgb(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  transition: all 0.5s;
+}
+
+.main:hover {
+  position: absolute;
+  border-radius: 25px;
+  width: 771px;
+  height: 667px;
+  background: rgba(31, 229, 255, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+img {
+  position: absolute;
+  border-radius: 25px;
+  width: 770px;
+  height: 666px;
+}
