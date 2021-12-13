@@ -1,8 +1,22 @@
-.main {
+* {
+  margin: 0;
+}
+
+#flexEnable {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sb {
+  flex: 0 1 150px;
+  margin: 5px;
+}
+
+.standard {
   position: absolute;
   border-radius: 25px;
-  width: 771px;
-  height: 667px;
+  width: 400px;
+  height: 400px;
   background: rgb(255, 255, 255, 0);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,11 +25,11 @@
   transition: all 0.5s;
 }
 
-.main:hover {
+.standard:hover {
   position: absolute;
   border-radius: 25px;
-  width: 771px;
-  height: 667px;
+  width: 400px;
+  height: 400px;
   background: rgba(31, 229, 255, 0.8);
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,8 +38,20 @@
 }
 
 img {
-  position: absolute;
   border-radius: 25px;
-  width: 770px;
-  height: 666px;
+  width: 400px;
+  height: 400px;
+}
+
+.context {
+  color: white;
+  position: absolute;
+  padding: 20px 20px 20px 20px;
+}
+.context p {
+  font-size: 30px;
+  text-underline-offset: none;
+}
+.context span {
+  font-size: 20px;
 }
